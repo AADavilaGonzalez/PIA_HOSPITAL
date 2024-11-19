@@ -1,0 +1,18 @@
+[PACIENTE NO. 1 | Aldo Adrian Davila Gonzalez]
+-------------------Datos-Personales-------------------
+* Edad: 21
+* Genero: Masculino
+* Calle: David Alfaro Siqueiros
+* Colonia: Portal de Cumbres
+* Municipio: Monterrey
+* No. Exterior: 6459
+* Codigo Postal: 64348
+-------------------Datos--Consulta--------------------
+* No. Consultorio: 10
+* Tipo de Servicio: Emergencia
+-----------------------Sintomas-----------------------
+El paciente se sentia muy mal del estomago por lo que
+se le translado al la sala de emegencia para que se
+le realizara blah blah blah
+******************************************************
+

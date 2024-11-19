@@ -1,0 +1,8 @@
+#Ignores de archivos de entorno#
+.vscode
+
+#Extensiones de archivos generados#
+.txt
+
+#Lista blanca
+!ejemplo.txt
