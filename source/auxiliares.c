@@ -135,7 +135,7 @@ int parsear_servicio(FILE* entrada)
             dstring_decay(string_servicio))==0
         ) break;
     }
-    dstring_decay(string_servicio);
+    dstring_destroy(string_servicio);
     return i;
 }
 
