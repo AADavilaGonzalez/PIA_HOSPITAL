@@ -26,7 +26,7 @@ ejecute el script compilar.bat.
 
 Los dos script soportan la misma sintaxis de un solo argumento:
 
-`./copilar.(sh/bat) <compilador>`
+`./compilar.(sh/bat) <compilador>`
 
 El argumento 'compilador' hace referencia al compilador que desea utilizar para
 compilar el programa que debe estar previamente registrado como ejecutable

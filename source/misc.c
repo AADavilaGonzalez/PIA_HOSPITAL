@@ -48,7 +48,7 @@ FILE* abrir_archivo(char* nombre_archivo)
 
     static const char *texto_archivo_es_necesario =
     "Se necesita el archivo '%s' para proceder con la ejecucion de la aplicacion.\n"
-    "*Terminano la ejecucion del programa*\n";
+    "*Terminando la ejecucion del programa*\n";
 
     static const char *texto_archivo_error_al_crear =
     "*Se ha producido un error al intentar crear el archivo '%s'*\n";
@@ -56,6 +56,7 @@ FILE* abrir_archivo(char* nombre_archivo)
     int opc;
     FILE* archivo=fopen(nombre_archivo, "r+");
     if(!archivo) {
+        clear();
         printf(texto_archivo_no_encontrado, nombre_archivo);
         opc=validar_entero(1,2);
         if(opc==1) {

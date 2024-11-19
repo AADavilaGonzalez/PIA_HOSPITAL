@@ -32,7 +32,7 @@ void alta_paciente(FILE* archivo, Paciente* buffer)
     capturar_string(buffer->direccion.calle, L_CALLE, "Calle: ");
     capturar_string(buffer->direccion.colonia, L_COLONIA, "Colonia: ");
     capturar_string(buffer->direccion.municipio, L_MUNICIPIO, "Municipio: ");
-    buffer->direccion.numero=(unsigned int)capturar_entero(0, 999999, "No. Exterior: ");
+    buffer->direccion.numero=(unsigned int)capturar_entero(10000, 99999, "No. Exterior: ");
     buffer->direccion.cp=(unsigned int)capturar_entero(0,999999, "Codigo Postal: ");
 
     print_separador(titulo_datos_consulta, ANCHO_IMPRESION, '-', stdout);
