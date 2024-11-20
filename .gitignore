@@ -1,5 +1,6 @@
 #Ignores de archivos de entorno#
 .vscode
+.DS_Store
 
 #Extensiones de archivos generados#
 *.txt
