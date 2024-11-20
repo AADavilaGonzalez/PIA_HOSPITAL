@@ -2,7 +2,9 @@
 .vscode
 
 #Extensiones de archivos generados#
-.txt
+*.txt
+*_app
+*.exe
 
 #Lista blanca
 !ejemplo.txt
