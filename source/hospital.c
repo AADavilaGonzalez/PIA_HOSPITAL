@@ -44,6 +44,7 @@ void alta_paciente(FILE* archivo, Paciente* buffer)
 
     fseek(archivo, 0, SEEK_END);
     print_paciente(buffer, archivo);
+    fflush(archivo);
 
     printf("El empleado ha sido dado de alta exitosamente\n");
     printf("*Regresando al menu principal*\n");
